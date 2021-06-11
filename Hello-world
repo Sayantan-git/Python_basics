@@ -1,1 +1,18 @@
+#include<iostream>  //#include is a specific preprocessor command that 
+                    //effectively copies and pastes the entire text of the file, specified between the angle brackets
+                    //into the source code.
+                    //The file <iostream>, which is a standard file that should come with the C++ compiler, is short for 
+                    //input-output streams. This command contains code for displaying and getting an input from the user.
+                    
+using namespace std; //namespace is a prefix that is applied to all the names in a certain set. iostream file defines two names used in this program
+                    // - cout and endl.
+int main()          //Starting point of all C++ programs
+{
+    cout<<"Hello World";  // cout<<; - for output
+                          //cin>>; -  for input
+    return 0;
+}                   //execution of code terminates here
 
+/*Output
+Hello World
+*/
